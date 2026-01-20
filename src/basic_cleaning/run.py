@@ -57,43 +57,43 @@ if __name__ == "__main__":
   
     parser.add_argument(
         "--input_artifact", 
-        type = str
-        help ="Name of input artifact to download from W&B"
+        type =str,
+        help ="Name of input artifact to download from W&B",
         required = True
     )
 
     parser.add_argument(
         "--output_artifact", 
-        type = str
-        help ="Name of output artifact"
+        type =str,
+        help ="Name of output artifact",
         required = True
     )
 
     parser.add_argument(
         "--output_type", 
-        type = str
-        help ="Type of output artifact"
+        type =str,
+        help ="Type of output artifact",
         required = True
     )
 
     parser.add_argument(
         "--output_description", 
-        type = str
-        help ="Description for output artifact"
+        type =str,
+        help ="Description for output artifact",
         required = True
     )
 
     parser.add_argument(
         "--min_price", 
-        type = float
-        help ="Min price to filter outliers (USD)"
+        type =float,
+        help ="Min price to filter outliers (USD)",
         required = True
     )
 
     parser.add_argument(
         "--max_price",
-        type = float
-        help ="Max price to filter outliers (USD)"
+        type =float,
+        help ="Max price to filter outliers (USD)",
         required = True
     )
 
